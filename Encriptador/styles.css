@@ -1,0 +1,107 @@
+:root {
+  --fuente: inter, arial;
+  --tamano: 32px;
+  --colorblanco: white;
+  --negrita: bold;
+}
+
+body {
+  background: #f3f5fc;
+}
+
+.colorEncabezados {
+  color: #0a3871;
+}
+
+.tipoTextoEncabezado {
+  font-family: var(--fuente);
+  font-size: var(--tamano);
+  font-weight: 400;
+  line-height: 48px;
+  text-align: left;
+}
+
+.margenEncabezado {
+  margin-top: 150px;
+  margin-left: 120px;
+}
+
+.colorazulboton {
+  background-color: darkblue;
+  color: var(--colorblanco);
+  font-family: var(--fuente);
+  font-size: var(--tamano);
+}
+.divbotones {
+  display: flex;
+  gap: 38px;
+  padding-top: 30px;
+  padding-left: 60px;
+}
+
+.estilobotones {
+  border-radius: 24px;
+  line-height: 19.36px;
+  text-align: center;
+  width: 328px;
+  height: 67px;
+  size: 36px;
+  font-family: var(--fuente);
+  font-size: var(--tamano);
+  background-color: #0a3871;
+  color: var(--colorblanco);
+  cursor: pointer;
+}
+
+.detalle {
+  margin-top: 300px;
+}
+
+.mensajeerror {
+  padding-left: 70px;
+}
+
+.presentacion {
+  display: flex;
+  gap: 16px;
+  justify-content: space-around;
+}
+
+.card {
+  background: #ffffff;
+  height: 944px;
+  width: 400px;
+  border-radius: 32px;
+}
+
+.imagenderecha {
+  height: 304px;
+  width: 336px;
+}
+
+.titulo-card {
+  font-style: var(--negrita);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.mensaje-card {
+  font-style: var(--negrita);
+  font-size: 15px;
+  color: #495057;
+}
+
+.letracard {
+  text-align: center;
+  font-family: var(--fuente);
+}
+
+.card-sin-datos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-con-datos {
+  padding: 30px;
+}
